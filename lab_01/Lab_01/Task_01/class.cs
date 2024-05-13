@@ -2,42 +2,41 @@
 using System.Collections.Generic;
 using System.Text;
 
-// Клас для грошей
 namespace classes
 {
     public class Money
     {
-        public int Dollars { get; set; } // Ціла частина
-        public int Cents { get; set; }   // Дробова частина
+        public int Dollars { get; set; } 
+        public int Cents { get; set; }   
 
-        // Конструктор
+        
         public Money(int dollars, int cents)
         {
             Dollars = dollars;
             Cents = cents;
         }
 
-        // Метод для виведення суми на екран
+        
         public void DisplayAmount()
         {
             Console.WriteLine($"Сума: {Dollars} грн {Cents} коп");
         }
     }
 
-    // Клас для продукту
+    
     public class Product
     {
         public string Name { get; set; }
         public Money Price { get; set; }
 
-        // Конструктор
+    
         public Product(string name, Money price)
         {
             Name = name;
             Price = price;
         }
 
-        // Метод для зменшення ціни
+    
         public void DecreasePrice(int amount)
         {
             Price.Cents -= amount;
