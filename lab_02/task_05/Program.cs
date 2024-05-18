@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace BuilderPattern
 {
-    // Основний клас персонажа
     class Character
     {
         public string Name { get; set; }
@@ -21,7 +20,6 @@ namespace BuilderPattern
         }
     }
 
-    // Інтерфейс для будівельників персонажів
     interface ICharacterBuilder
     {
         ICharacterBuilder SetName(string name);
@@ -35,7 +33,6 @@ namespace BuilderPattern
         Character Build();
     }
 
-    // Реалізація будівельника для героїв
     class HeroBuilder : ICharacterBuilder
     {
         private Character character = new Character();
@@ -100,7 +97,6 @@ namespace BuilderPattern
         }
     }
 
-    // Директор, який керує процесом створення персонажів
     class CharacterDirector
     {
         private ICharacterBuilder characterBuilder;
@@ -129,15 +125,13 @@ namespace BuilderPattern
     {
         static void Main(string[] args)
         {
-            // Створення героя
             var heroBuilder = new HeroBuilder();
             var characterDirector = new CharacterDirector(heroBuilder);
             var hero = characterDirector.ConstructCharacter("HeroName", "Good", "6 feet", "Athletic", "Blonde", "Blue", "Armor", new List<string> { "Sword", "Shield" });
             Console.WriteLine("Hero:");
             Console.WriteLine(hero);
 
-            // Створення ворога
-            var enemyBuilder = new HeroBuilder(); // Можна створити окремий клас EnemyBuilder для додаткових функцій ворогів
+            var enemyBuilder = new HeroBuilder();
             characterDirector = new CharacterDirector(enemyBuilder);
             var enemy = characterDirector.ConstructCharacter("EnemyName", "Evil", "7 feet", "Hulking", "Black", "Red", "Dark Robes", new List<string> { "Dark Magic", "Cursed Blade" });
             Console.WriteLine("\nEnemy:");
