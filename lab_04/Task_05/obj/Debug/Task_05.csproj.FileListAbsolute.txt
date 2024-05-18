@@ -1,0 +1,7 @@
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_04\Task_05\bin\Debug\Task_05.exe.config
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_04\Task_05\bin\Debug\Task_05.exe
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_04\Task_05\bin\Debug\Task_05.pdb
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_04\Task_05\obj\Debug\Task_05.csproj.AssemblyReference.cache
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_04\Task_05\obj\Debug\Task_05.csproj.CoreCompileInputs.cache
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_04\Task_05\obj\Debug\Task_05.exe
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_04\Task_05\obj\Debug\Task_05.pdb
