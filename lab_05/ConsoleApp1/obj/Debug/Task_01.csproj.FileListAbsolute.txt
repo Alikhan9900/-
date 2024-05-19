@@ -1,0 +1,7 @@
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_05\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_05\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_05\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_05\ConsoleApp1\obj\Debug\Task_01.csproj.AssemblyReference.cache
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_05\ConsoleApp1\obj\Debug\Task_01.csproj.CoreCompileInputs.cache
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_05\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\alikh\OneDrive\Рабочий стол\КПЗ\lab_05\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
